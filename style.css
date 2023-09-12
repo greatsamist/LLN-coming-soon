@@ -37,6 +37,16 @@ html {
 }
 
 .container .content .coming-soon {
-  padding: 10px 0px;
-  color: #722f37;
+  display: inline-block;
+  padding: 8px 50px;
+  background-color: #722f37;
+  color: #fff;
+  font-size: 17px;
+  margin: 10px 0;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+.container .content .coming-soon:hover {
+  letter-spacing: 2px;
 }
